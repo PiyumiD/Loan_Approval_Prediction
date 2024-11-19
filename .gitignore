@@ -1,0 +1,20 @@
+# Ignore Python bytecode files
+*.pyc
+__pycache__/
+
+# Ignore the virtual environment folder
+venv/
+
+# Ignore data files (if too large or sensitive)
+loan_approval_dataset.csv
+
+# Ignore model pickle files (if too large)
+loan_approval_pipeline.pkl
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints
+
+# Ignore other unnecessary files
+*.log
+*.env
+
